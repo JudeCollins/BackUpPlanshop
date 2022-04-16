@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <h1> Mern Ecommerce</h1>
+      <Navbar />
     </div>
   );
 }
