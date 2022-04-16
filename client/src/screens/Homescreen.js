@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Homescreen() {
   return (
-    <div>Homescreen</div>
+    <div>Homescreen Page </div>
   )
 }
